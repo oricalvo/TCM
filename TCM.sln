@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web (MVC4)", "Web (MVC4)\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{3BF2018A-FC4B-4EE2-9BFC-21F844461E48}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm", "WinForm", "{C29636FC-3EF3-4202-8796-8DC945CC9077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.csproj", "{9F3BA09F-3778-4CDC-9654-38C2154CD220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{3BF2018A-FC4B-4EE2-9BFC-21F844461E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF2018A-FC4B-4EE2-9BFC-21F844461E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF2018A-FC4B-4EE2-9BFC-21F844461E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3BA09F-3778-4CDC-9654-38C2154CD220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3BA09F-3778-4CDC-9654-38C2154CD220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3BA09F-3778-4CDC-9654-38C2154CD220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3BA09F-3778-4CDC-9654-38C2154CD220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4D90F393-73BC-47F0-B5EB-FBD293EFC492} = {9C5FCBC9-7EA7-4FD9-A6D6-B42B4AFB5818}
 		{3BF2018A-FC4B-4EE2-9BFC-21F844461E48} = {9C5FCBC9-7EA7-4FD9-A6D6-B42B4AFB5818}
+		{9F3BA09F-3778-4CDC-9654-38C2154CD220} = {C29636FC-3EF3-4202-8796-8DC945CC9077}
 	EndGlobalSection
 EndGlobal

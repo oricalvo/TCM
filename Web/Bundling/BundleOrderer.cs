@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Web.Optimization;
 
-namespace TCM.Web.Bundling.Core
+namespace TCM.Web.Bundling
 {
     public class BundleOrderer : IBundleOrderer
     {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Web;
 using System.Web.Optimization;
 
-namespace TCM.Web.Bundling.Core
+namespace TCM.Web.Bundling
 {
     public static class BundleCollectionExtensions
     {
