@@ -7,11 +7,11 @@ using System.Web.Optimization;
 
 namespace TCM.Web.Bundling.Core
 {
-    public class BundleOrderer3 : IBundleOrderer
+    public class BundleOrderer : IBundleOrderer
     {
         private int maxLinesToParseForScriptReferences;
 
-        public BundleOrderer3(int maxLinesToParseForScriptReferences = 5)
+        public BundleOrderer(int maxLinesToParseForScriptReferences = 5)
         {
             this.maxLinesToParseForScriptReferences = maxLinesToParseForScriptReferences;
         }

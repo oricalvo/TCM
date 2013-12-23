@@ -14,7 +14,7 @@ namespace TCM.Web.Bundling.Core
 
         static BundleCollectionExtensions()
         {
-            defaultOrderer = new BundleOrderer3();
+            defaultOrderer = new BundleOrderer();
         }
 
         public static void IncludeDirectory(this BundleCollection bundles, string bundleVirtualPath, params string[] directories)
